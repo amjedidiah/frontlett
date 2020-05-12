@@ -1,3 +1,8 @@
-const app = async () => '#BuildforSDG';
+import React from 'react';
+import './App.css';
 
-export default app;
+function App() {
+  return <div className="App">Learn React</div>;
+}
+
+export default App;
