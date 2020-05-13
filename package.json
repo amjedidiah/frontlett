@@ -20,7 +20,6 @@
     "dev": "react-scripts start",
     "preprod": "npm run build",
     "prod": "serve -s build"
-
   },
   "author": {
     "name": "Build For SDG",
