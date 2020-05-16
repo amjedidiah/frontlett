@@ -1,0 +1,25 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Sam Karis -- Team Mentor -- @sam-karis
+    Jedidiah Amaraegbu -- Technical Team Lead -- @amjedidiah
+    Victor Nwoguru -- Technical Team Lead -- @vkguru
+    Philip Okonwanji -- @okonwanjiphilip
+    Hussein AbdulAzeez -- @lahkanmi
+    Yusuf AbdulAzeez -- @horler408
+
+# THANKS
+
+    Sam Karis
+    Jedidiah Amaraegbu
+    Victor Nwoguru
+    Philip Okonwanji
+    Hussein AbdulAzeez
+    Yusuf AbdulAzeez
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, BootStrap, ReactJS, nodeJS,
+    Apache Server Configs, jQuery, Modernizr, Normalize.css

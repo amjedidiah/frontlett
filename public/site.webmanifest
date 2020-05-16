@@ -1,0 +1,15 @@
+{
+  "short_name": "EduKolab",
+  "name": "EduKolab",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "display": "standalone",
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#161940",
+  "theme_color": "#161940"
+}

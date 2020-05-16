@@ -10,4 +10,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-serviceWorker.unregister();
+if (!window.location.host.includes('localhost')) {
+  serviceWorker.register();
+}

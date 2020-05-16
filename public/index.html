@@ -1,43 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <title>EduKolab | Trainings and certifications for teachers</title>
+    <meta name="description" content="Trainings and certifications for teachers" />
+    <meta name="author" content="EduKolab" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+      Give name for pinning site to Taskbar on WIndows.
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta name="application-name" content="EduKolab" />
     <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+      Give site tooltip for pinning
+    -->
+    <meta name="msapplication-tooltip" content="Trainings and certifications for teachers" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
+    <!-- Make it possible to pin app on mobile -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <!-- Get Site to look like app on iOS  -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#161940" />
+    <!--
+      Add Title for when site is pinned to iOS screen
     -->
-    <title>React App</title>
+    <meta name="apple-mobile-web-app-title" content="EduKolab" />
+    <meta name="theme-color" content="#161940" />
+
+    <!--
+      Add icon for when pinned to iOS & any other mobile
+     -->
+    <link rel="icon" sizes="192x192" href="%PUBLIC_URL%/tile.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/tile.png" />
+    <!--
+       Display certain image when site is loaded as app on iOS
+      -->
+    <link
+      rel="apple-touch-startup-image"
+      media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2)"
+      href="%PUBLIC_URL%/tile.png"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/tile.png" />
+
+    <!--
+      DNS Prefetching: prefetches the site that is included in the href
+    -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <main id="root"></main>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <!-- Modernizr. Plugins -->
+    <script src="%PUBLIC_URL%/js/modernizr.min.js" async></script>
+    <script src="%PUBLIC_URL%/js/plugins.js" async></script>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <noscript id="deferred-styles">
+      <!-- Google Fonts -->
+      <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet"
+      />
+
+      <!-- Normalize CSS -->
+      <link rel="stylesheet" href="%PUBLIC_URL%/css/normalize.css" />
+
+      <!-- Main CSS -->
+      <link rel="stylesheet" href="%PUBLIC_URL%/css/main.css" />
+
+      <!-- Main CSS -->
+      <link rel="stylesheet" href="%PUBLIC_URL%/css/master.css" />
+    </noscript>
+    <script>
+      var loadDeferredStyles = function () {
+        var addStylesNode = document.getElementById('deferred-styles');
+        var replacement = document.createElement('div');
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement);
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf =
+        window.requestAnimationFrame ||
+        window.mozRequestAnimationFrame ||
+        window.webkitRequestAnimationFrame ||
+        window.msRequestAnimationFrame;
+      if (raf)
+        raf(function () {
+          window.setTimeout(loadDeferredStyles, 0);
+        });
+      else window.addEventListener('load', loadDeferredStyles);
+    </script>
+
+    <!-- Service Worker -->
+    <script>
+      // ServiceWorker is a progressive technology. Ignore unsupported browsers
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
+      }
+    </script>
   </body>
 </html>

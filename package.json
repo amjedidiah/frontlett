@@ -1,9 +1,9 @@
 {
-  "name": "team099frontend",
+  "name": "edukolab",
   "version": "0.0.1",
   "description": "A boilerplate for starting js code",
   "keywords": [
-    "team-099-frontend",
+    "edukolab-frontend",
     "boilerplate"
   ],
   "private": false,
@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BuildForSDG/team-099-frontend.git"
+    "url": "https://github.com/BuildForSDG/edukolab-frontend.git"
   },
   "bugs": {
-    "url": "https://github.com/BuildForSDG/team-099-frontend/issues"
+    "url": "https://github.com/BuildForSDG/edukolab-frontend/issues"
   },
   "license": "MIT",
   "dependencies": {
