@@ -27,6 +27,7 @@ module.exports = {
       }
     ]
   },
+  parser: 'babel-eslint',
   settings: {
     react: {
       createClass: 'createReactClass', // Regex for Component Factory to use,
