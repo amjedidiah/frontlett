@@ -54,7 +54,6 @@
 
     <!-- Modernizr. Plugins -->
     <script src="%PUBLIC_URL%/js/modernizr.min.js" async></script>
-    <script src="%PUBLIC_URL%/js/plugins.js" async></script>
 
     <noscript id="deferred-styles">
       <!-- Google Fonts -->
@@ -90,14 +89,6 @@
           window.setTimeout(loadDeferredStyles, 0);
         });
       else window.addEventListener('load', loadDeferredStyles);
-    </script>
-
-    <!-- Service Worker -->
-    <script>
-      // ServiceWorker is a progressive technology. Ignore unsupported browsers
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => navigator.serviceWorker.register('sw.js'));
-      }
     </script>
   </body>
 </html>
