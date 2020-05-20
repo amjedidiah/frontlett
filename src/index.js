@@ -1,11 +1,15 @@
-import app from './app';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './app.js';
+import * as serviceWorker from './serviceWorker.js';
 
-const startApp = async () => {
-  const header = document.querySelector('[data-app-name]');
-  if (!header) return;
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-  const programName = await app();
-  header.textContent = programName;
-};
-
-document.addEventListener('DOMContentLoaded', startApp);
+if (!window.location.host.includes('localhost')) {
+  serviceWorker.register();
+}
