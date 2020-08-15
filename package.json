@@ -1,10 +1,9 @@
 {
-  "name": "edukolab",
+  "name": "frontlett",
   "version": "0.0.1",
-  "description": "A boilerplate for starting js code",
+  "description": "A front-end test from ASIN5",
   "keywords": [
-    "edukolab-frontend",
-    "boilerplate"
+    "frontlett-frontend"
   ],
   "private": false,
   "directories": {
@@ -18,20 +17,20 @@
     "check": "npm run lint && npm test",
     "build": "npm run check && react-scripts build",
     "start": "serve -s build",
-    "dev": "npm run check && react-scripts start",
+    "dev": "npm run check && cross-env HTTPS=true react-scripts start",
     "prod": "npm run build && serve -s build"
   },
   "pre-commit": "check",
   "author": {
-    "name": "Build For SDG",
-    "email": "buildforsdg@andela.com"
+    "name": "Amaraegbu Jedidiah",
+    "email": "imunacode@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BuildForSDG/edukolab-frontend.git"
+    "url": "https://github.com/amjedidiah/frontlett.git"
   },
   "bugs": {
-    "url": "https://github.com/BuildForSDG/edukolab-frontend/issues"
+    "url": "https://github.com/amjedidiah/frontlett/issues"
   },
   "license": "MIT",
   "dependencies": {
