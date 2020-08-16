@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5af7086c87a482342bcab03c1335e3d3",
+    "revision": "8eb2b829293ed240f663a86b41ea981c",
     "url": "/frontlett/index.html"
   },
   {
-    "revision": "7cbbb66c84661ebdcc66",
+    "revision": "c7c1b1888e7c0ed91983",
     "url": "/frontlett/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "fc4017feab2581901cdb",
-    "url": "/frontlett/static/css/main.46b208a3.chunk.css"
+    "revision": "520ad30a1990e5d4830a",
+    "url": "/frontlett/static/css/main.e94fede4.chunk.css"
   },
   {
-    "revision": "7cbbb66c84661ebdcc66",
-    "url": "/frontlett/static/js/2.c871ea6f.chunk.js"
+    "revision": "c7c1b1888e7c0ed91983",
+    "url": "/frontlett/static/js/2.f6ed42bd.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/frontlett/static/js/2.c871ea6f.chunk.js.LICENSE.txt"
+    "url": "/frontlett/static/js/2.f6ed42bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc4017feab2581901cdb",
-    "url": "/frontlett/static/js/main.ef639ba1.chunk.js"
+    "revision": "520ad30a1990e5d4830a",
+    "url": "/frontlett/static/js/main.eccfeb03.chunk.js"
   },
   {
     "revision": "b50cd906e5c259e670b2",

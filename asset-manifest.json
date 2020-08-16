@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/frontlett/static/css/main.46b208a3.chunk.css",
-    "main.js": "/frontlett/static/js/main.ef639ba1.chunk.js",
-    "main.js.map": "/frontlett/static/js/main.ef639ba1.chunk.js.map",
+    "main.css": "/frontlett/static/css/main.e94fede4.chunk.css",
+    "main.js": "/frontlett/static/js/main.eccfeb03.chunk.js",
+    "main.js.map": "/frontlett/static/js/main.eccfeb03.chunk.js.map",
     "runtime-main.js": "/frontlett/static/js/runtime-main.3bbb31b1.js",
     "runtime-main.js.map": "/frontlett/static/js/runtime-main.3bbb31b1.js.map",
     "static/css/2.11829350.chunk.css": "/frontlett/static/css/2.11829350.chunk.css",
-    "static/js/2.c871ea6f.chunk.js": "/frontlett/static/js/2.c871ea6f.chunk.js",
-    "static/js/2.c871ea6f.chunk.js.map": "/frontlett/static/js/2.c871ea6f.chunk.js.map",
+    "static/js/2.f6ed42bd.chunk.js": "/frontlett/static/js/2.f6ed42bd.chunk.js",
+    "static/js/2.f6ed42bd.chunk.js.map": "/frontlett/static/js/2.f6ed42bd.chunk.js.map",
     "index.html": "/frontlett/index.html",
-    "precache-manifest.166a7414ae785607530dc5eb784e693c.js": "/frontlett/precache-manifest.166a7414ae785607530dc5eb784e693c.js",
+    "precache-manifest.113a9f5aaef8095c938b3051d6cc82d4.js": "/frontlett/precache-manifest.113a9f5aaef8095c938b3051d6cc82d4.js",
     "service-worker.js": "/frontlett/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/frontlett/static/css/2.11829350.chunk.css.map",
-    "static/css/main.46b208a3.chunk.css.map": "/frontlett/static/css/main.46b208a3.chunk.css.map",
-    "static/js/2.c871ea6f.chunk.js.LICENSE.txt": "/frontlett/static/js/2.c871ea6f.chunk.js.LICENSE.txt",
+    "static/css/main.e94fede4.chunk.css.map": "/frontlett/static/css/main.e94fede4.chunk.css.map",
+    "static/js/2.f6ed42bd.chunk.js.LICENSE.txt": "/frontlett/static/js/2.f6ed42bd.chunk.js.LICENSE.txt",
     "static/media/div.png": "/frontlett/static/media/div.21c1bcca.png",
     "static/media/jumbo.png": "/frontlett/static/media/jumbo.9ad76418.png",
     "static/media/logo.png": "/frontlett/static/media/logo.f6637a61.png"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.3bbb31b1.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.c871ea6f.chunk.js",
-    "static/css/main.46b208a3.chunk.css",
-    "static/js/main.ef639ba1.chunk.js"
+    "static/js/2.f6ed42bd.chunk.js",
+    "static/css/main.e94fede4.chunk.css",
+    "static/js/main.eccfeb03.chunk.js"
   ]
 }
