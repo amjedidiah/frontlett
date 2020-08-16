@@ -15,17 +15,17 @@ export default class Title extends Component {
   };
 
   render = () => (
-    <Container fluid id="title" className="mb-5">
+    <Container fluid id="title" className="my-4">
       <Row className="align-items-center px-0">
         <Col
           lg={{ order: this.props.rowReversed ? 'last' : 'first', span: 4 }}
           className={`x-padding px-0 ${this.props.rowReversed ? 'text-right' : ''}`}
         >
-          <h1 className="title">{this.props.title}</h1>
+          <h3 className="title">{this.props.title}</h3>
         </Col>
         <Col
           lg={{ order: this.props.rowReversed ? 'first' : 'last' }}
-          className={`px-0 d-none d-lg-flex ${this.props.rowReversed ? 'justify-content-start' : 'justify-content-end'}`}
+          className={`px-0 d-flex ${this.props.rowReversed ? 'justify-content-start' : 'justify-content-end'}`}
         >
           <h1 className="header-title">{this.props.headerTitle}</h1>
         </Col>
