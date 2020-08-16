@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jedidiah Amaraegbu -- Technical Team Lead -- @amjedidiah
+
+# THANKS
+
+    Jedidiah Amaraegbu
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, BootStrap, ReactJS,
+    jQuery, Modernizr, Normalize.css

@@ -1,0 +1,15 @@
+{
+  "short_name": "Frontlett",
+  "name": "Frontlett",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "display": "standalone",
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#1379e0",
+  "theme_color": "#1379e0"
+}
