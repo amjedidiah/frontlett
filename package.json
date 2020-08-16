@@ -11,7 +11,7 @@
     "test": "cross-env CI=true react-scripts test",
     "test:watch": "react-scripts test --watch",
     "test:cover": "react-scripts test --coverage",
-    "lint": "eslint \"src/**/*.js\" || false",
+    "lint": "eslint \"src/**/*.js\" --fix || false",
     "check": "npm run lint && npm test",
     "build": "npm run check && react-scripts build",
     "start": "serve -s build",
