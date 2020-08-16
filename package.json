@@ -2,9 +2,7 @@
   "name": "frontlett",
   "version": "0.0.1",
   "description": "A front-end test from ASIN5",
-  "keywords": [
-    "frontlett-frontend"
-  ],
+  "keywords": ["frontlett-frontend"],
   "private": false,
   "directories": {
     "test": "__tests__"
@@ -18,7 +16,9 @@
     "build": "npm run check && react-scripts build",
     "start": "serve -s build",
     "dev": "npm run check && cross-env HTTPS=true react-scripts start",
-    "prod": "npm run build && serve -s build"
+    "prod": "npm run build && serve -s build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "pre-commit": "check",
   "author": {
@@ -62,15 +62,8 @@
     "pre-commit": "^1.2.2"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  },
+  "homepage": "https://amjedidiah.github.io/frontlett"
 }
