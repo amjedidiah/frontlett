@@ -2,9 +2,7 @@
   "name": "frontlett",
   "version": "0.0.1",
   "description": "A front-end test from ASIN5",
-  "keywords": [
-    "frontlett-frontend"
-  ],
+  "keywords": ["frontlett-frontend"],
   "private": false,
   "directories": {
     "test": "__tests__"
@@ -13,12 +11,14 @@
     "test": "cross-env CI=true react-scripts test",
     "test:watch": "react-scripts test --watch",
     "test:cover": "react-scripts test --coverage",
-    "lint": "eslint \"src/**/*.js\" || false",
+    "lint": "eslint \"src/**/*.js\" --fix || false",
     "check": "npm run lint && npm test",
     "build": "npm run check && react-scripts build",
     "start": "serve -s build",
     "dev": "npm run check && cross-env HTTPS=true react-scripts start",
-    "prod": "npm run build && serve -s build"
+    "prod": "npm run build && serve -s build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "pre-commit": "check",
   "author": {
@@ -34,14 +34,20 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.5.2",
     "cross-env": "^7.0.2",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "jest-enzyme": "^7.1.2",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "serve": "^11.3.0"
@@ -56,15 +62,8 @@
     "pre-commit": "^1.2.2"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  },
+  "homepage": "https://amjedidiah.github.io/frontlett"
 }

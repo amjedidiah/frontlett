@@ -1,0 +1,60 @@
+#app #jumbo {
+}
+
+#app #jumbo #notImage {
+  padding: 54px 5% 48px 0;
+}
+
+#app #jumbo #notImage div#border {
+  height: 718px;
+  border: 1px solid #1379e0;
+  box-sizing: border-box;
+  border-radius: 0 5px 5px 0;
+}
+
+#app #jumbo #notImage div#float {
+  width: 94%;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 2% 4%;
+  z-index: 2;
+}
+
+#app #jumbo #notImage div#float p {
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 52px;
+}
+
+#app #jumbo #notImage div#float button {
+  background: #1379e0;
+  border-radius: 5px;
+  padding: 3.5% 13%;
+}
+
+#app #jumbo #notImage div#float button span {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+#app #jumbo img {
+  min-width: 100%;
+}
+
+@media (min-width: 992px) {
+  #app #jumbo #notImage div#float {
+    position: absolute;
+    width: 588px;
+    height: 588px;
+    padding: 10% 8%;
+    left: 12%;
+    top: 116px;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  #app #jumbo #notImage {
+    padding: 54px 5% 48px 0;
+  }
+}

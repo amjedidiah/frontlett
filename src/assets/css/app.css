@@ -1,9 +1,12 @@
 /* CSS Document */
 * {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Roboto', serif;
+  font-style: normal;
   box-sizing: border-box;
   word-wrap: break-word;
   transition: all 0.05s;
+  color: #000000;
 }
 
 body,
@@ -17,7 +20,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', serif;
+  /* font-family: 'Roboto', serif; */
+  color: #333333;
+}
+
+#app h1 {
+  font-size: 35px;
+  line-height: 47px;
+  margin-bottom: 42px;
 }
 
 a {
@@ -87,9 +97,9 @@ button:hover {
   background: #099a7e;
 }
 
-.bg-primary,
-.btn-primary,
-.btn-outline-primary:hover {
+#app .bg-primary,
+#app .btn-primary,
+#app .btn-outline-primary:hover {
   background: #1379e0;
 }
 
@@ -114,4 +124,9 @@ button:hover {
 .pointer {
   box-shadow: none;
   cursor: pointer;
+}
+
+#app .x-padding {
+  padding-left: 5% !important;
+  padding-right: 5% !important;
 }
