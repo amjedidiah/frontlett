@@ -1,0 +1,21 @@
+#app #footer {
+  background: #1a3047;
+  padding: 5%;
+}
+
+#app #footer a,
+#app #footer p.icon-social,
+#app #footer p.icon-social svg,
+#app #footer p.icon-social span {
+  color: #ffffff;
+}
+
+#app #footer p.icon-social {
+  margin: 0 5px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  width: 40px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+}

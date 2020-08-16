@@ -1,0 +1,17 @@
+#app #title h1.header-title {
+  font-size: 140px;
+  color: rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+#app #title div {
+  overflow: hidden;
+}
+
+#app #title div h1.header-title {
+  right: -3%;
+}
+
+#app #title .text-right + div h1.header-title {
+  left: -3%;
+}

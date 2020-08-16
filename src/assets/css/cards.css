@@ -1,0 +1,52 @@
+/* CSS Document */
+#app #cards .grid-item,
+#app #cards .grid-sizer {
+  width: 100%;
+}
+
+#app #cards .grid-item {
+  background: #1379e0;
+  padding: 26px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box !;
+}
+
+#app #cards .grid-item.grid-item-white {
+  background: #ffffff;
+}
+
+#app #cards .grid-item .title,
+#app #cards .grid-item p {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#app #cards .grid-item .title {
+  font-weight: bold;
+  line-height: 40px;
+}
+
+#app #cards .grid-item p {
+  line-height: 35px;
+}
+
+#app #cards .grid-item.grid-item-white .title,
+#app #cards .grid-item.grid-item-white p {
+  color: #000000;
+}
+
+@media (min-width: 992px) {
+  #app #cards .grid-item,
+  #app #cards .grid-sizer {
+    width: 32%;
+  }
+
+  #app #cards .gutter-sizer {
+    width: 2%;
+  }
+
+  #app #cards .grid-item.grid-item--width2 {
+    width: 64%;
+  }
+}

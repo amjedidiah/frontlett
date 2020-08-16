@@ -52,8 +52,34 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <main id="root"></main>
 
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!-- Modernizr. Plugins -->
     <script src="%PUBLIC_URL%/js/modernizr.min.js" async></script>
+
+    <!-- Masonry -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <!-- ImagesLoaded -->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+    <!--  -->
+    <script>
+      $(document).ready(() => {
+        // init Masonry
+        var $grid = $('.grid').masonry({
+          columnWidth: '.grid-sizer',
+          gutter: '.gutter-sizer',
+          itemSelector: '.grid-item',
+          percentPosition: true
+        });
+        // layout Masonry after each image loads
+        $grid.imagesLoaded().progress(function () {
+          $grid.masonry('layout');
+        });
+      });
+    </script>
 
     <noscript id="deferred-styles">
       <!-- Google Fonts -->
@@ -64,9 +90,6 @@
 
       <!-- Normalize CSS -->
       <link rel="stylesheet" href="%PUBLIC_URL%/css/normalize.css" />
-
-      <!-- Main CSS -->
-      <link rel="stylesheet" href="%PUBLIC_URL%/css/main.css" />
 
       <!-- Main CSS -->
       <link rel="stylesheet" href="%PUBLIC_URL%/css/master.css" />
