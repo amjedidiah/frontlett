@@ -38,22 +38,22 @@ export default class Footer extends Component {
           <p className="mb-0 text-white lead">Follow us</p>
           <div className="d-flex justify-content-end">
             <p className="text-white icon-social">
-              <FontAwesomeIcon style={{ color: '#fff !important' }} icon={faFacebookF} />
+              <FontAwesomeIcon icon={faFacebookF} />
             </p>
             <p className="text-white icon-social">
-              <FontAwesomeIcon style={{ color: '#fff !important' }} icon={faInstagram} />
+              <FontAwesomeIcon icon={faInstagram} />
             </p>
             <p className="text-white icon-social">
-              <FontAwesomeIcon style={{ color: '#fff !important' }} icon={faTwitter} />
+              <FontAwesomeIcon icon={faTwitter} />
             </p>
             <p className="text-white icon-social">
-              <FontAwesomeIcon style={{ color: '#fff !important' }} icon={faLinkedin} />
+              <FontAwesomeIcon icon={faLinkedin} />
             </p>
             <p className="text-white icon-social">
-              <FontAwesomeIcon style={{ color: '#fff !important' }} icon={faYoutube} />
+              <FontAwesomeIcon icon={faYoutube} />
             </p>
             <p className="text-white icon-social">
-              <FontAwesomeIcon style={{ color: '#fff !important' }} icon={faMediumM} />
+              <FontAwesomeIcon icon={faMediumM} />
             </p>
           </div>
         </Col>

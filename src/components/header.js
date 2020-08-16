@@ -6,24 +6,38 @@ import {
 
 // Asset imports
 import logo from '../assets/img/logo.png';
-import '../assets/css/header.css';
+import navLinks from '../assets/data/navLinks.json';
 
 // Start & Emport Component
 export default class Header extends Component {
+  removeDashes = (item) => item.split('-').join(' ')
+
+  renderNavLinks = () => navLinks.map((item, i) => (
+      <Nav.Link href={`#${item}`} className="text-capitalize text-dark" key={`nav-links-${i}`}>
+        {this.removeDashes(item)}
+      </Nav.Link>
+  ));
+
   render = () => (
-    <Navbar bg="white" expand="lg" id="header" className="x-padding">
-      <Container fluid>
-        <Navbar.Brand href="#home">
-          <Image src={logo} className="d-inline-block align-top" alt="Frontlett Logo" fluid />
+    <Navbar bg="white" expand="md" id="header" className="x-padding">
+      <Container fluid className="p-0">
+        <Navbar.Brand href="#home" className="p-0">
+          <Image
+            src={logo}
+            width="150"
+            className="d-inline-block align-top"
+            alt="Frontlett Logo"
+            fluid
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#howitworks">How It Works</Nav.Link>
+            {this.renderNavLinks()}
           </Nav>
-          <Button variant="primary" size="lg"><span>Try virtualting</span></Button>
+          <Button variant="primary" size="lg">
+            <span className="text-white">Try virtualting</span>
+          </Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

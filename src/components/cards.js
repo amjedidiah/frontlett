@@ -19,12 +19,12 @@ export default class Cards extends Component {
 
   renderHelp = () => benefits.map(({ title, body }, i) => (
       <div
-        className={`grid-item ${![1, 3].includes(i) ? '' : 'grid-item-white'} ${
+        className={`grid-item shadow p-4 mb-3 ${![1, 3].includes(i) ? 'bg-primary' : 'bg-white grid-item-white'} ${
           i === 4 ? 'grid-item--width2' : ''
         }`}
         key={`cards-${i}`}
       >
-        <h2 className="title">{title}</h2>
+        <h4 className="title">{title}</h4>
         <p>{body}</p>
       </div>
   ));
