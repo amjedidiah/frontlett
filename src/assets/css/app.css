@@ -1,7 +1,7 @@
 /* CSS Document */
 * {
   /* font-family: 'Montserrat', sans-serif; */
-  font-family: 'Roboto', serif;
+  font-family: 'Roboto', serif !important;
   font-style: normal;
   box-sizing: border-box;
   word-wrap: break-word;
