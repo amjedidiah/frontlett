@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/frontlett/static/css/main.e94fede4.chunk.css",
-    "main.js": "/frontlett/static/js/main.b7a50798.chunk.js",
-    "main.js.map": "/frontlett/static/js/main.b7a50798.chunk.js.map",
+    "main.css": "/frontlett/static/css/main.a4b7924e.chunk.css",
+    "main.js": "/frontlett/static/js/main.da5235ce.chunk.js",
+    "main.js.map": "/frontlett/static/js/main.da5235ce.chunk.js.map",
     "runtime-main.js": "/frontlett/static/js/runtime-main.3bbb31b1.js",
     "runtime-main.js.map": "/frontlett/static/js/runtime-main.3bbb31b1.js.map",
     "static/css/2.11829350.chunk.css": "/frontlett/static/css/2.11829350.chunk.css",
-    "static/js/2.f6ed42bd.chunk.js": "/frontlett/static/js/2.f6ed42bd.chunk.js",
-    "static/js/2.f6ed42bd.chunk.js.map": "/frontlett/static/js/2.f6ed42bd.chunk.js.map",
+    "static/js/2.3ba8dca7.chunk.js": "/frontlett/static/js/2.3ba8dca7.chunk.js",
+    "static/js/2.3ba8dca7.chunk.js.map": "/frontlett/static/js/2.3ba8dca7.chunk.js.map",
     "index.html": "/frontlett/index.html",
-    "precache-manifest.b63b9b193593186b3ca936152960f352.js": "/frontlett/precache-manifest.b63b9b193593186b3ca936152960f352.js",
+    "precache-manifest.7dc8143c222a2a8462f4faac530f7181.js": "/frontlett/precache-manifest.7dc8143c222a2a8462f4faac530f7181.js",
     "service-worker.js": "/frontlett/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/frontlett/static/css/2.11829350.chunk.css.map",
-    "static/css/main.e94fede4.chunk.css.map": "/frontlett/static/css/main.e94fede4.chunk.css.map",
-    "static/js/2.f6ed42bd.chunk.js.LICENSE.txt": "/frontlett/static/js/2.f6ed42bd.chunk.js.LICENSE.txt",
+    "static/css/main.a4b7924e.chunk.css.map": "/frontlett/static/css/main.a4b7924e.chunk.css.map",
+    "static/js/2.3ba8dca7.chunk.js.LICENSE.txt": "/frontlett/static/js/2.3ba8dca7.chunk.js.LICENSE.txt",
     "static/media/div.png": "/frontlett/static/media/div.21c1bcca.png",
-    "static/media/jumbo.png": "/frontlett/static/media/jumbo.9ad76418.png",
-    "static/media/logo.png": "/frontlett/static/media/logo.f6637a61.png"
+    "static/media/jumbo.png": "/frontlett/static/media/jumbo.98cda8a9.png",
+    "static/media/logo.png": "/frontlett/static/media/logo.d99a224b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3bbb31b1.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.f6ed42bd.chunk.js",
-    "static/css/main.e94fede4.chunk.css",
-    "static/js/main.b7a50798.chunk.js"
+    "static/js/2.3ba8dca7.chunk.js",
+    "static/css/main.a4b7924e.chunk.css",
+    "static/js/main.da5235ce.chunk.js"
   ]
 }
