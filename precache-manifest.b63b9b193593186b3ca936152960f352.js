@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8eb2b829293ed240f663a86b41ea981c",
+    "revision": "135a522efbd98bd70d743a9df2325d79",
     "url": "/frontlett/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frontlett/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "520ad30a1990e5d4830a",
+    "revision": "4c00761d807a9264945f",
     "url": "/frontlett/static/css/main.e94fede4.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frontlett/static/js/2.f6ed42bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "520ad30a1990e5d4830a",
-    "url": "/frontlett/static/js/main.eccfeb03.chunk.js"
+    "revision": "4c00761d807a9264945f",
+    "url": "/frontlett/static/js/main.b7a50798.chunk.js"
   },
   {
     "revision": "b50cd906e5c259e670b2",
