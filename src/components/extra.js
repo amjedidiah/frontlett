@@ -11,7 +11,7 @@ import extras from '../assets/data/extras.js';
 export default class Extra extends Component {
   renderHelper = () => extras.map((item, i) => (
       <Col xs="4" sm="3" lg className="mb-4" key={`extra-${i}`}>
-        <Image src={item} fluid />
+        <Image src={item} alt={`Logo${i}`} fluid />
       </Col>
   ));
 

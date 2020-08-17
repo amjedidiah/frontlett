@@ -8,8 +8,8 @@
       "sizes": "512x512"
     }
   ],
-  "display": "standalone",
-  "start_url": "/?utm_source=homescreen",
+  "display": "fullscreen",
+  "start_url": "/frontlett/?utm_source=homescreen",
   "background_color": "#1379e0",
   "theme_color": "#1379e0"
 }
