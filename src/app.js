@@ -27,7 +27,7 @@ const App = () => (
       <Title rowReversed headerTitle="Benefits" title="Benefits" />
       <Cards />
       <Title headerTitle="How it works" title="How it works" />
-      <Image src={div} fluid />
+      <Image src={div} alt="How It Works" fluid />
       <Footer />
     </div>
 );

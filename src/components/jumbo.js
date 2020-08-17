@@ -10,6 +10,10 @@ import '../assets/css/jumbo.css';
 
 // Start & Export Component
 export default class Jumbo extends Component {
+  renderCarouselItems = () => [0, 1, 2].map((item, i) => <Carousel.Item key={`carousel-item-${i}`}>
+    <Image src={jumbo} className="d-block w-100" alt={`Slide-${i}`} fluid />
+  </Carousel.Item>)
+
   render = () => (
     <Jumbotron fluid className="py-0 bg-white" id="jumbo">
       <Container fluid>
@@ -32,15 +36,7 @@ export default class Jumbo extends Component {
           </Col>
           <Col md="7" className="px-0 d-flex">
             <Carousel>
-              <Carousel.Item>
-                <Image src={jumbo} className="d-block w-100" alt="First slide" fluid />
-              </Carousel.Item>
-              <Carousel.Item>
-                <Image src={jumbo} className="d-block w-100" alt="Second slide" fluid />
-              </Carousel.Item>
-              <Carousel.Item>
-                <Image src={jumbo} className="d-block w-100" alt="Third slide" fluid />
-              </Carousel.Item>
+              {this.renderCarouselItems()}
             </Carousel>
           </Col>
         </Row>
