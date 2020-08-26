@@ -31,7 +31,7 @@ URL to deployed staging-app is below
 
 ## Authors
 
-    Jedidiah Amaraegbu -- Technical Team Lead -- @amjedidiah
+    Jedidiah Amaraegbu -- @amjedidiah
 
 ## Contributing
 not open to contributions
